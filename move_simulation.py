@@ -18,10 +18,10 @@ for i in range(n-1):
     #dy = round((y_e - y_s) / (t_e - t_s))
     #dx = round((x_e - x_s) / (t_e - t_s))
     while t < t_e:
-        print(t, y, x)
-        #print(y, x)
+        #print(t, y, x)
+        print(y, x)
         t += dt
         y = y_s + int((y_e - y_s) / (t_e - t_s) * (t - t_s))
         x = x_s + int((x_e - x_s) / (t_e - t_s) * (t - t_s))
-    print("--------------------")
+    ##print("--------------------")
 print(p[n-1][1], p[n-1][2])
